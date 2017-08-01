@@ -17,8 +17,8 @@ and allow sorting by:
 
 ### Consideration:
 - You should consume the api endpoint mention and not use it as internal json file
-- You should build this application to work in PHP 7.1 or later, you are free to use any php framework or to build it completley from scraptch
-- Don't use any database systems or full text search engines like elasticsearch or solar
+- You should build this application to work in PHP 7.1 or later, you are free to use any php framework or to build it completely from scratch
+- Don't use any database systems or full text search engines like elastic search or solar
 - If you put any assumptions for any function which are not clear in the task please mention it on the README file
 
 ### Delivery:

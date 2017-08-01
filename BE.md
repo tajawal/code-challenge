@@ -1,4 +1,4 @@
-##Challenge:
+## Challenge:
 
 Using the following endpoint : https://api.myjson.com/bins/tl0bp 
 
@@ -15,13 +15,13 @@ and allow sorting by:
 - Price
 
 
-###Consideration:
+### Consideration:
 - You should consume the api endpoint mention and not use it as internal json file
 - You should build this application to work in PHP 7.1 or later, you are free to use any php framework or to build it completley from scraptch
 - Don't use any database systems or full text search engines like elasticsearch or solar
 - If you put any assumptions for any function which are not clear in the task please mention it on the README file
 
-###Delivery:
+### Delivery:
 - Create public Github repo which contain the final code
 - Update your repo README file to have all needed instructions to run the application and unit test, and include some examples
 - Unit test should be included

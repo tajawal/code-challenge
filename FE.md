@@ -1,4 +1,4 @@
-###Task:
+## Task:
 
 Using the following endpoint : https://api.myjson.com/bins/tl0bp 
 
@@ -11,11 +11,11 @@ Listing should have these features
 - Sort by Hotel Name and Price
 
 
-####Consideration:
+### Consideration:
 - You should consume the api endpoint mention and not use it as internal json file
 - You should build this application in ECMAScript 6 or later, you are free to use any javascript framework.
 
-####Delivery:
+### Delivery:
 - Create public github repo which contain the final code
 - Update Repo README file to have all needed instructions to run the application, and include some examples
 - Unit test should be included

@@ -2,13 +2,21 @@
 
 Using the following endpoint : https://api.myjson.com/bins/tl0bp 
 
-Build an application to display hotel list:
+Build an application to search and list hotels:
 
-![Mock](http://res.cloudinary.com/divwiclgn/image/upload/v1501589355/code-assessment-mock_kpyhjr.png)
+![Mock](http://res.cloudinary.com/divwiclgn/image/upload/v1501594231/code-assessment-mock_lauryh.png)
 
-Listing should have these features
-- Search by Hotel Name 
-- Sort by Hotel Name and Price
+### Steps
+
+- User select the date range to search hotels
+- Display all hotels whose availability dates lies between the search dates.
+- Display the total number of nights based on selected date range. (For example if user search from Aug 12, 2017 to Aug 17, 2017 than Total Number of Nights will be 5.)
+- Display hotel price based on number of nights. (Price x Number of Nights)
+
+### Features
+
+- User is able to sort based on hotel name and price
+- User is able to filter based on hotel name and price
 
 
 ### Consideration:

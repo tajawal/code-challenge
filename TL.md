@@ -4,8 +4,6 @@
 
 The objective of this challenge is to parse a log file and do some analysis on it. It should be an easy task for anyone with basic programming skills. The challenge must be solved in PHP.
 
-Unit tests are highly appreciated but not a must.
-
 Sample log can be downloaded here: [https://goo.gl/MKmKNG](https://goo.gl/MKmKNG)
 
 ## Requirements & output
@@ -48,8 +46,8 @@ Most Active Dyno: web.3
 - **Simple, clear, readable code** How well structured it is? Clear separation of concerns? Can anyone just look at it and get the idea to
 what is being done? Does it follow any standards?
 - **Correctness** Does the application do what it promises? Can we find bugs or trivial flaws?
-- **Memory efficiency (optional)** How will it behave in case of large datasets?
-- **Testing (optional)** How well tested your application is? Can you give some metrics?
+- **Memory efficiency** How will it behave in case of large datasets?
+- **Testing** How well tested your application is? Can you give some metrics?
 
 ## Questions & Delivery
 

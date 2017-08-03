@@ -1,8 +1,14 @@
-## Challenge:
+![](http://i.imgur.com/XFAzEuc.png)
 
-Using the following endpoint : https://api.myjson.com/bins/tl0bp 
+## Developer Challenge
 
-Build an application (console or REST API) to allow search in this inventory by any of the following :
+The objective of this challenge is to hit an endpoint containing the list of hotels and perform some actions on the result. It should be an easy task for anyone with basic programming skills. The challenge must be solved in PHP.
+
+The URL containing the list of hotels can be found at [https://api.myjson.com/bins/tl0bp](https://api.myjson.com/bins/tl0bp)
+
+## Requirements and Output
+
+Create an application (console or RESTful API) to **allow search** in the given inventory by any of the following:
 
 - Hotel Name
 - Destination [City]
@@ -15,14 +21,37 @@ and allow sorting by:
 - Price
 
 
-### Consideration:
-- You should consume the api endpoint mention and not use it as internal json file
-- You should build this application to work in PHP 7.1 or later, you are free to use any php framework or to build it completely from scratch
-- Don't use any database systems or full text search engines like elastic search or solar
-- If you put any assumptions for any function which are not clear in the task please mention it on the README file
+## Conditions
 
-### Delivery:
-- Create public Github repo which contain the final code
-- Update your repo README file to have all needed instructions to run the application and unit test, and include some examples
-- Unit test should be included
+- Fetch the data directly from the URL and not create a JSON file
+- Use PHP >= 7.1  for the development
+- Write Unit tests in PHPUnit or Codeception, whatever you prefer.
+- Do not use any database or full text search engines
+- If you make any assumptions, put them clearly in the readme file
+
+## What we are looking for
+
+- **Simple, clear, readable code** How well structured it is? Clear separation of concerns? Can anyone just look at it and get the idea to
+what is being done? Does it follow any standards?
+- **Correctness** Does the application do what it promises? Can we find bugs or trivial flaws?
+- **Memory efficiency** How will it behave in case of large datasets?
+- **Testing** How well tested your application is? Can you give some metrics?
+
+## Questions & Delivery
+
+If you have any questions to this challenge, please do reach out to us.
+
+The challenge should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred).
+
+## Checklist
+
+Before submitting, make sure that your program
+
+- [ ] Code accompanies the Unit Tests
+- [ ] Usage is clearly mentioned in the readme
+- [ ] Uses the endpoint directly
+
+## Note
+
+Implementations focusing on **quality over feature completeness** will be highly appreciated,  don’t feel compelled to implement everything and even if you are not able to complete the challenge, please do submit it anyways.
 

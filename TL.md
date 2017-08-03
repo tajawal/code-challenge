@@ -61,10 +61,10 @@ The challenge should be delivered as a link to a public git repository (github.c
 
 Before submitting, make sure that your program
 
-- [] Can be run from the command line
-- [] Is non-interactive, does not require user input
-- [] Generates plain text output
-- [] Returns one entry for each of the 6 endpoints listed above
+- [ ] Can be run from the command line
+- [ ] Is non-interactive, does not require user input
+- [ ] Generates plain text output
+- [ ] Returns one entry for each of the 6 endpoints listed above
 
 ## Note
 

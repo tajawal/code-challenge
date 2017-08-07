@@ -6,3 +6,4 @@
 - Devops Engineer
 - Site Reliability Engineer
 - HTML Producer
+- QA Engineer

@@ -1,5 +1,5 @@
 ## Task:
-Direct booking scenario is requested to be automated in below:
+Kindly refer to below requested scenarios
 
 ### First Scenario:
 1- Navigate to​ www.tajawal.ae

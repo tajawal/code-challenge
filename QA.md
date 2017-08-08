@@ -1,7 +1,11 @@
 ![](http://i.imgur.com/XFAzEuc.png)
 
 ## Developer Challenge
+The main objective of this assignment is measuring test engineering skills. 
 
+Two simple and forward scenarios are required to pass this assignment.
+
+## Requirements and Output
 ### First Scenario:
 1- Navigate to​ www.tajawal.ae
 
@@ -36,14 +40,26 @@
 6- Fetch all listing prices and save it in a .CSV file
 
 
-### Config:
-Above test should be:
-- Executable based on dynamic URL (www.tajawal.ae, www.tajawal.com )
-- Can be executed on chrome, firefox
-- Screenshots for (last page is enough)
-- Html report for the test run
-
-### Framework:
+## Conditions:
 - Any framework using any programming language (PHP is a plus)
-- Make sure to deliver BDD style
-- POM (page object module)
+- Executable based on dynamic URL (www.tajawal.ae, www.tajawal.com )
+- BDD
+- POM
+- Can be executed on chrome, firefox at least
+- Screenshots for (last page is enough)
+- HTML report for the test run result
+
+
+## What we are looking for
+A code we can Trust!
+
+This code is meant for testing, and passed execution does not mean working application; maybe testing code needs to be tested in the first place
+
+## Questions And Delivery
+If you have any questions to this challenge, please do reach out to us.
+
+The challenge should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred).
+## Checklist
+- [ ] Usage is clearly mentioned in the README file
+## Note
+Implementations focusing on **quality over feature completeness** will be highly appreciated,  don’t feel compelled to implement everything and even if you are not able to complete the challenge, please do submit it anyways.

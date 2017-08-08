@@ -12,7 +12,7 @@ you.
     - Create a VPC Using NAT 
     - Setup 3 instance in Different AZ & DIfferent Region with 1 ELB (2 server in Ireland & 1 in Singapore)
     - Bastion host with cloudwatch and Email notification (SNS )
-    - Route 53 will be a plus 
+    - Route 53 with healthcheck 
     
 ## Ansible: 
 ### Task 01 :

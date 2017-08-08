@@ -33,7 +33,7 @@ you.
     
 ## Monitoring: 
 ### Task 01 : 
-   - Create docker-compse stack for ELK Stack and nginx webserver with some nginx logs. 
+   - Create docker-compose stack for ELK Stack and nginx webserver with some nginx logs. 
    - Create 3 Kibana dashboard must be used to monitor important metrics for PHP / NGINX app.
     
 ## Scripting: 

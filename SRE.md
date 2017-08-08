@@ -9,10 +9,10 @@ you.
 ## Terraform:
 ### Task 01 :
  - Create terraform to setup the following
-    - Create a VPC Using NAT 
-    - Setup 3 instance in Different AZ & DIfferent Region with 1 ELB (2 server in Ireland & 1 in Singapore)
-    - Bastion host with cloudwatch and Email notification (SNS )
-    - Route 53 with healthcheck  
+    - Create a VPC With 1 Puplic subnets and 2 Private Subnet.
+    - Setup 3 Webserver "Nginx" Instances in Different AZ with 1 ELB
+    - Setup Jump server "Bastion" host.
+    - Route 53 weighted routing, healthcheck with Cloudwatch and SNS ( Email notification )
     
 ## Ansible: 
 ### Task 01 :
@@ -29,11 +29,12 @@ you.
     - curl , git , vim, ping , pip , python,  
     - SSH / mount an RSA key for ubuntu user. 
     - add www-data user
-    - allow www-data to connect via ssh
+    - allow www-data to connect via ssh without password
     
 ## Monitoring: 
 ### Task 01 : 
-    - Create 3 Kibana dashboard must be used to monitor important metrics for PHP / NGINX app.
+   - Create docker-compse stack for ELK Stack and nginx webserver with some nginx logs. 
+   - Create 3 Kibana dashboard must be used to monitor important metrics for PHP / NGINX app.
     
 ## Scripting: 
 ### Task 01 : 
@@ -61,7 +62,7 @@ N.J.
 
 ### Task 02: 
 
-Create a PHP Class [or Other scripting languages] to check the Status of URL [www.test-api-tajawal.com]
+Create a script Python or PHP or Nodejs to check the Status of URL [www.test-api-tajawal.com]
 
 - if Code Response is 200 
 print OK_STATUS message with replacemnet of placeholder

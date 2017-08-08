@@ -1,4 +1,6 @@
-Task:
+![](http://i.imgur.com/XFAzEuc.png)
+
+## Challenge
 
 Using the following endpoint : https://api.myjson.com/bins/tl0bp 
 

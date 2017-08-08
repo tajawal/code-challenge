@@ -48,7 +48,7 @@ The challenge should be delivered as a link to a public git repository (github.c
 Before submitting, make sure that your program
 
 - [ ] Code accompanies the Unit Tests
-- [ ] Usage is clearly mentioned in the readme
+- [ ] Usage is clearly mentioned in the README file
 - [ ] Uses the endpoint directly
 
 ## Note

@@ -1,4 +1,6 @@
-## Task:
+![](http://i.imgur.com/XFAzEuc.png)
+
+## Developer Challenge
 
 Using the following endpoint : https://api.myjson.com/bins/tl0bp 
 
@@ -6,7 +8,7 @@ Build an application to search and list hotels:
 
 ![Mock](http://res.cloudinary.com/divwiclgn/image/upload/v1501594231/code-assessment-mock_lauryh.png)
 
-### Steps
+## Requirements and Output
 
 - User select the date range to search hotels
 - Display all hotels whose availability dates lies between the search dates.
@@ -19,12 +21,36 @@ Build an application to search and list hotels:
 - User is able to filter based on hotel name and price
 
 
-### Consideration:
+## Conditions
 - You should consume the api endpoint mention and not use it as internal json file
 - You should build this application in ECMAScript 6 or later, you are free to use any javascript framework.
 
-### Delivery:
-- Create public github repo which contain the final code
-- Update Repo README file to have all needed instructions to run the application, and include some examples
-- Unit test should be included
+
+## What we are looking for
+
+- **Simple, clear, readable code** How well structured it is? Clear separation of concerns? Can anyone just look at it and get the idea to
+what is being done? Does it follow any standards?
+- **Correctness** Does the application do what it promises? Can we find bugs or trivial flaws?
+- **Memory efficiency** How will it behave in case of large datasets?
+- **Testing** How well tested your application is? Can you give some metrics?
+
+
+## Questions & Delivery
+
+If you have any questions to this challenge, please do reach out to us.
+
+The challenge should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred).
+
+## Checklist
+
+Before submitting, make sure that your program
+
+- [ ] Code accompanies the Unit Tests
+- [ ] Usage is clearly mentioned in the README file
+- [ ] Uses the endpoint directly
+
+## Note
+
+Implementations focusing on **quality over feature completeness** will be highly appreciated,  don’t feel compelled to implement everything and even if you are not able to complete the challenge, please do submit it anyways.
+
 

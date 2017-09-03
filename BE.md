@@ -8,7 +8,7 @@ The URL containing the list of hotels can be found at [https://api.myjson.com/bi
 
 ## Requirements and Output
 
-### Create an application (console or RESTful API) to **allow search** in the given inventory by any of the following:
+#### Create an application (console or RESTful API) to **allow search** in the given inventory by any of the following:
 
 - Hotel Name
 - Destination [City]

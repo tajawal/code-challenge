@@ -8,7 +8,7 @@ This endpoint containing a json list of hotels [https://api.myjson.com/bins/tl0b
 
 ## Requirements and Output
 
-### Create a RESTful API to **allow search** in the given inventory by any of the following:
+#### Create a RESTful API to **allow search** in the given inventory by any of the following:
 
 - Hotel Name
 - Destination [City]
@@ -20,7 +20,7 @@ and allow sorting by:
 - Hotel Name
 - Price
 
-###  Build a frontend application to consume your final search endpoint using one of the following:
+####  Build a frontend application to consume your final search endpoint using one of the following:
 - Angular
 - React
 - Vuejs

@@ -17,7 +17,7 @@ Create an application (console or RESTful API) to **allow search** in the given 
 
 and allow sorting by:
 
-- Hotel Name 
+- Hotel Name
 - Price
 
 
@@ -25,7 +25,9 @@ and allow sorting by:
 
 - Fetch the data directly from the URL and not create a JSON file
 - Use PHP >= 7.1  for the development
-- Write Unit tests in PHPUnit or Codeception, whatever you prefer.
+- Write Unit tests in PHPUnit or Codeception, whatever you prefer
+- Implement [travis](https://travis-ci.org) or [scrutinizer-ci](https://scrutinizer-ci.com) or any other CI tool for the project, Add the build status badges to your project README file
+- Use [codeclimate](https://codeclimate.com) or any other alternative to estimate the code quality and add it's badge to your project README file
 - Do not use any database or full text search engines
 - If you make any assumptions, put them clearly in the readme file
 
@@ -48,7 +50,7 @@ The challenge should be delivered as a link to a public git repository (github.c
 Before submitting, make sure that your program
 
 - [ ] Code accompanies the Unit Tests
-- [ ] Usage is clearly mentioned in the README file
+- [ ] Usage is clearly mentioned in the README file, This including setup the project, how to run it, how to run unit test, examples,etc
 - [ ] Uses the endpoint directly
 
 ## Note

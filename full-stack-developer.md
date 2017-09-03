@@ -2,30 +2,39 @@
 
 ## Developer Challenge
 
-Using the following endpoint : https://api.myjson.com/bins/tl0bp 
+The objective of this challenge is to hit an endpoint containing the list of hotels and perform some actions on the result.
 
-Build an application to search and list hotels:
-
-![Mock](http://res.cloudinary.com/divwiclgn/image/upload/v1501594231/code-assessment-mock_lauryh.png)
+This endpoint containing a json list of hotels [https://api.myjson.com/bins/tl0bp](https://api.myjson.com/bins/tl0bp)
 
 ## Requirements and Output
 
-- User select the date range to search hotels
-- Display all hotels whose availability dates lies between the search dates.
-- Display the total number of nights based on selected date range. (For example if user search from Aug 12, 2017 to Aug 17, 2017 than Total Number of Nights will be 5.)
-- Display hotel price based on number of nights. (Price x Number of Nights)
+Create a RESTful API to **allow search** in the given inventory by any of the following:
 
-### Features
+- Hotel Name
+- Destination [City]
+- Price range [ex: $100:$200]
+- Date range [ex: 10-10-2020:15-10-2020]
 
-- User is able to sort based on hotel name and price
-- User is able to filter based on hotel name and price
+and allow sorting by:
+
+- Hotel Name
+- Price
+
+Build a frontend application to consume your final search endpoint using one of the following:
+- Angular
+- React
+- Vuejs
 
 
 ## Conditions
-- You should consume the api endpoint mention and not use it as internal json file
-- You should build this application in ECMAScript 6 or later, you are free to use any javascript framework.
+
+- Fetch the data directly from the URL and not create a JSON file
+- You can use PHP >= 7.1 or nodejs or both to accomplish this task
+- Write Unit tests for both Frontend & Backend application
 - Implement [travis](https://travis-ci.org) or [scrutinizer-ci](https://scrutinizer-ci.com) or any other CI tool for the project, Add the build status badges to your project README file
-- Use [codeclimate](https://codeclimate.com) or any alternative to estimate the code quality and add it's badge to your project README file
+- Use [codeclimate](https://codeclimate.com) or any other alternative to estimate the code quality and add it's badge to your project README file
+- Do not use any database or full text search engines
+- If you make any assumptions while solving the exercise please mention them clearly in the readme file
 
 ## What we are looking for
 
@@ -34,7 +43,6 @@ what is being done? Does it follow any standards?
 - **Correctness** Does the application do what it promises? Can we find bugs or trivial flaws?
 - **Memory efficiency** How will it behave in case of large datasets?
 - **Testing** How well tested your application is? Can you give some metrics?
-
 
 ## Questions & Delivery
 
@@ -53,5 +61,4 @@ Before submitting, make sure that your program
 ## Note
 
 Implementations focusing on **quality over feature completeness** will be highly appreciated,  don’t feel compelled to implement everything and even if you are not able to complete the challenge, please do submit it anyways.
-
 

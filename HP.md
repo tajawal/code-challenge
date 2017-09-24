@@ -12,3 +12,21 @@ You have to develop a landing page by using following:
 - Bootstrap 3
 - Javascript / Jquery
 
+## Acceptance Critaria
+The acceptance critaria for task will be based on the follows:
+- HTML should be well written / structured.
+- Landing page should be fully responsive on all devices (Ipad / Tablet, mobiles and Desktop Devices).
+- Images should be well optimimized.
+- Image Slider should be functional and responsive.
+- Tabbing should be working properly
+
+
+## Questions & Delivery
+If you have any questions to this challenge, please do reach out to us.
+
+The challenge should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred).
+
+## Duration
+The duration for completing this assignment should not be exceeding more then 2 Days.
+
+

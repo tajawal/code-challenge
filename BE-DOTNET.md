@@ -2,13 +2,13 @@
 
 ## Developer Challenge
 
-The objective of this challenge is to hit an endpoint containing the list of hotels and perform some actions on the result. It should be an easy task for anyone with basic programming skills. The challenge must be solved in Asp.Net MVC.
+The objective of this challenge is to hit an endpoint containing the list of hotels and perform some actions on the result. It should be an easy task for anyone with basic programming skills. The challenge must be solved in C#.
 
 The URL containing the list of hotels can be found at [https://api.myjson.com/bins/tl0bp](https://api.myjson.com/bins/tl0bp)
 
 ## Requirements and Output
 
-#### Create an application (console or RESTful API) to **allow search** in the given inventory by any of the following:
+#### Create an application (Aspnet Web API or WCF) to **allow search** in the given inventory by any of the following:
 
 - Hotel Name
 - Destination [City]
@@ -24,7 +24,7 @@ and allow sorting by:
 ## Conditions
 
 - Fetch the data directly from the URL and not create a JSON file
-- Use MVC >= 5  for the development
+- Use C# >= 6  for the development
 - Write Unit tests in MSTest or xUnit, whatever you prefer
 - Implement [travis](https://travis-ci.org) or any other CI tool for the project, Add the build status badges to your project README file
 - Use [codeclimate](https://codeclimate.com) or any other alternative to estimate the code quality and add it's badge to your project README file

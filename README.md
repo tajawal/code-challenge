@@ -3,7 +3,7 @@
 
 - [Full stack developer](full-stack-developer.md)
 - [Backend Engineer](BE.md)
-- [Backend Engineer (.net)](BE-dotnet.md)
+- [Backend Engineer (.net)](BE-DOTNET.md)
 - [Frontend Engineer](FE.md)
 - [Tech Lead](TL.md)
 - [Devops Engineer](DE.md)

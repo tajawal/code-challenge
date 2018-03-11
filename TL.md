@@ -2,68 +2,74 @@
 
 ## Developer Challenge
 
-The objective of this challenge is to parse a log file and do some analysis on it. It should be an easy task for anyone with basic programming skills. The challenge must be solved in PHP.
+The objective of this challenge is to build a simple web application (Backend & Frontend) which enable the end user to search in hotels list.
 
-Sample log can be downloaded here: [https://goo.gl/MKmKNG](https://goo.gl/MKmKNG)
 
-## Requirements & output
+## Requirements and Output
 
-The log file contains all requests to a server within a specific timeframe. Given the following endpoints
+#### Backend
+Create a simple Restufl application to **manage** hotels data (CRUD operations) and **Search** on it.
+Example of basic hotel data can be found in this endpoint [https://api.myjson.com/bins/tl0bp](https://api.myjson.com/bins/tl0bp),
+Feel free to change any field name or field type in the schema, the provided example is just to guide you.
 
-```
-GET /api/users/{user_id}/count_bookings
-GET /api/users/{user_id}/get_bookings
-GET /api/users/{user_id}/get_booking_progress
-GET /api/users/{user_id}/get_upcoming_bookings
-POST /api/users/{user_id}
-GET /api/users/{user_id}
-```
+API consumer should be able to search by any of the following:
 
-Where `{user_id}` is the id of the user calling the backend.
+- Hotel Name
+- Destination [City]
+- Price range [ex: $100:$200]
+- Date range [ex: 10-10-2020:15-10-2020]
 
-Write a command line program that outputs a small analysis of the sample log containing at least the following for each of the endpoints above:
+and allow sorting by:
 
-- The number of times any endpoint was accessed
-- The average of the response time (connect time + service time) for each endpoint
-- The IP which hit the server the most
-- The "dyno" that responded the most
+- Hotel Name
+- Price
 
-## Output
+Use Mongodb to design and store the hotels data, Feel free to store data in one or multiple collections
 
-The output should just be simple text lines and can roughly look like below for each of the above given endpoints:
+#### Backend Expected Delivery:
+We are expecting your restful API to have endpoints to do all crud and search operations for hotels, This is including : Error Handling, Response data pagination, Input validation
 
-```
-GET /api/users/{user_id}/count_bookings
+####  Build a frontend application to consume your API using one of the following:
+- Angular
+- React
+- Vuejs
 
-Access Count: 200
-Average Response Time: 10ms
-Most Active IP: 94.66.255.106 
-Most Active Dyno: web.3
-```
+#### Frontend Expected Delivery:
+We are expecting to be able to do all crud operations through your frontend app, This is including search and sorting hotels.
+## Conditions
+
+- Build DB seeder to import your database
+- You can use PHP >= 7.0 or NodeJs =>9.x or both to accomplish this task
+- Write Unit tests for both Frontend & Backend application
+- Implement [travis](https://travis-ci.org) or [scrutinizer-ci](https://scrutinizer-ci.com) or any other CI tool for the project, Add the build status badges to your project README file
+- Use [codeclimate](https://codeclimate.com) or any other alternative to estimate the code quality and add it's badge to your project README file
+- Do not use any full-text search engines like elasticsearch or solar
+- If you make any assumptions while solving the exercise please mention them clearly in the readme file
 
 ## What we are looking for
 
 - **Simple, clear, readable code** How well structured it is? Clear separation of concerns? Can anyone just look at it and get the idea to
 what is being done? Does it follow any standards?
 - **Correctness** Does the application do what it promises? Can we find bugs or trivial flaws?
+- **Security** are there any obvious vulnerability?
 - **Memory efficiency** How will it behave in case of large datasets?
 - **Testing** How well tested your application is? Can you give some metrics?
+- **Documentation** Is the code self documented and it's easy to understand it by just reading?
 
 ## Questions & Delivery
 
-If you have any questions to this challenge, please do reach out to us.
+If you have any questions about this challenge, please do reach out to us.
 
-The challenge should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred).
+The challenge solution should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred).
 
 ## Checklist
 
 Before submitting, make sure that your program
 
-- [ ] Can be run from the command line
-- [ ] Is non-interactive, does not require user input
-- [ ] Generates plain text output
-- [ ] Returns one entry for each of the 6 endpoints listed above
+- [ ] Code accompanies the Unit Tests
+- [ ] Usage is clearly mentioned in the README file, This including setup the project, how to run it, how to run unit test, examples,etc
 
 ## Note
 
 Implementations focusing on **quality over feature completeness** will be highly appreciated,  don’t feel compelled to implement everything and even if you are not able to complete the challenge, please do submit it anyways.
+

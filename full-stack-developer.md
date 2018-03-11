@@ -29,7 +29,7 @@ and allow sorting by:
 ## Conditions
 
 - Fetch the data directly from the URL and not create a JSON file
-- You can use PHP >= 7.1 or nodejs or both to accomplish this task
+- You can use PHP >= 7.1 or NodeJs =>9.x or both to accomplish this task
 - Write Unit tests for both Frontend & Backend application
 - Implement [travis](https://travis-ci.org) or [scrutinizer-ci](https://scrutinizer-ci.com) or any other CI tool for the project, Add the build status badges to your project README file
 - Use [codeclimate](https://codeclimate.com) or any other alternative to estimate the code quality and add it's badge to your project README file

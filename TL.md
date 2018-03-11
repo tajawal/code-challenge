@@ -2,7 +2,7 @@
 
 ## Developer Challenge
 
-The objective of this challenge is to build a simple web application (Backend & Frontend) which enable the end user to search in hotels list.
+The objective of this challenge is to build a simple web application (Backend & Frontend) which enable the end user to manage and search in hotels list.
 
 
 ## Requirements and Output

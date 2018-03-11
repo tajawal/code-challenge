@@ -7,8 +7,9 @@ The objective of this challenge is to build a simple web application (Backend & 
 
 ## Requirements and Output
 
-#### Backend
-Create a simple Restufl application to **manage** hotels data (CRUD operations) and **Search** on it.
+### Backend
+Create a simple Restufl API to **manage** hotels data (CRUD operations) and **Search** in it.
+
 Example of basic hotel data can be found in this endpoint [https://api.myjson.com/bins/tl0bp](https://api.myjson.com/bins/tl0bp),
 Feel free to change any field name or field type in the schema, the provided example is just to guide you.
 
@@ -24,12 +25,13 @@ and allow sorting by:
 - Hotel Name
 - Price
 
-Use Mongodb to design and store the hotels data, Feel free to store data in one or multiple collections
+Use **Mongodb** to design and store the hotels data, Feel free to store data in one or multiple collections
 
 #### Backend Expected Delivery:
 We are expecting your restful API to have endpoints to do all crud and search operations for hotels, This is including : Error Handling, Response data pagination, Input validation
 
-####  Build a frontend application to consume your API using one of the following:
+### Frontend
+Build a frontend application to consume your API using one of the following:
 - Angular
 - React
 - Vuejs
@@ -68,8 +70,8 @@ Before submitting, make sure that your program
 
 - [ ] Code accompanies the Unit Tests
 - [ ] Usage is clearly mentioned in the README file, This including setup the project, how to run it, how to run unit test, examples,etc
+## Notes
 
-## Note
-
-Implementations focusing on **quality over feature completeness** will be highly appreciated,  don’t feel compelled to implement everything and even if you are not able to complete the challenge, please do submit it anyways.
-
+- Implementations focusing on **quality over feature completeness** will be highly appreciated,
+don’t feel compelled to implement everything and even if you are not able to complete the challenge,
+please do submit it anyways.

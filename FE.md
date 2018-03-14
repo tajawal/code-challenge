@@ -1,4 +1,4 @@
-![](http://i.imgur.com/XFAzEuc.png)
+![](http://i.imgur.com/V5oC0YA.png)
 
 ## Developer Challenge
 

@@ -1,4 +1,4 @@
-![](http://i.imgur.com/V5oC0YA.png)
+![](http://i.imgur.com/tCsIrH8.png)
 
 ## DevOps Challenge
 At tajawal, we believe that before writing code we have to first understand the problem. Because of this

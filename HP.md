@@ -1,4 +1,4 @@
-![](http://i.imgur.com/XFAzEuc.png)
+![](http://i.imgur.com/tCsIrH8.png)
 
 ## HTML Producer Challenge
 

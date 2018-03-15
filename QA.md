@@ -1,4 +1,4 @@
-![](http://i.imgur.com/XFAzEuc.png)
+![](http://i.imgur.com/tCsIrH8.png)
 
 ## Developer Challenge
 The main objective of this assignment is measuring test engineering skills. 

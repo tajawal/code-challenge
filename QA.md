@@ -41,7 +41,7 @@ Two simple and forward scenarios are required to pass this assignment.
 
 
 ## Conditions:
-- Any framework using any programming language (PHP is a plus)
+- Any framework using any programming language
 - Executable based on dynamic URL (www.tajawal.ae, www.tajawal.com )
 - BDD
 - POM

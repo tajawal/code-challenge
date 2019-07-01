@@ -10,11 +10,11 @@ Method: GET
 
 URI: https://www.tajawal.ae/api/hotel/ahs/geo-suggest
 
-- Header params:
+Header params:
 - parameter name: Content-Type
 - parameter value: application/json
 
-- Query Params:
+Query Params:
 - parameter name: query
 - parameter value: paris
 
@@ -31,7 +31,7 @@ parameter name: Content-Type
 parameter value: application/json
 
 Request body:
-
+```
 {
   "dates": {
     "checkin": "11-09-2019",
@@ -66,7 +66,7 @@ Request body:
   ],
   "placeId": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ"
 }
-
+```
 Conditions: 
  - Dates should be dynamic
  - Room and guest array should be created dynamically

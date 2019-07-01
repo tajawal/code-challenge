@@ -10,13 +10,13 @@ Method: GET
 
 URI: https://www.tajawal.ae/api/hotel/ahs/geo-suggest
 
-Header params:
-parameter name: Content-Type
-parameter value: application/json
+- Header params:
+- parameter name: Content-Type
+- parameter value: application/json
 
-Query Params:
-parameter name: query
-parameter value: paris
+- Query Params:
+- parameter name: query
+- parameter value: paris
 
 Response validations: Perform needed validations on response
 

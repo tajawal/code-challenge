@@ -9,5 +9,6 @@
 - [Devops Engineer](DE.md)
 - [Site Reliability Engineer](SRE.md)
 - [Release Manager](RM.md)
-- [QA Engineer](QA.md)
+- [Backend QA Engineer](QA_Backend.md)
+- [Frontend QA Engineer](QA_Frontend.md)
 - [HTML Producer](HP.md)

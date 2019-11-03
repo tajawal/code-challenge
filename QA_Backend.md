@@ -8,7 +8,7 @@ The main objective of this assignment is measuring test engineering skills.
 1- Perform the below:
 Method: GET
 
-URI: https://www.tajawal.ae/api/hotel/ahs/geo-suggest
+URI: https://www.tajawal.ae/api/hotel/ahs/v2/geo-suggest
 
 Header params:
 - parameter name: Content-Type

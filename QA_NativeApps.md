@@ -7,7 +7,7 @@ The main objective of this assignment is measuring test engineering skills.
 
 ### Main Test Scenario:
 
-1- Navigate to​ configurable base URL (can be tajawal.com or almosafer.com) 
+1- Open tajawal.com or almosafer.com App
 
 2- Check for current set language. If language is already set to english then proceed with next steps. If not, then first change language to english and then proceed.
 

@@ -11,4 +11,5 @@
 - [Release Manager](RM.md)
 - [Backend QA Engineer](QA_Backend.md)
 - [Frontend QA Engineer](QA_Frontend.md)
+- [Apps QA Engineer](QA_NativeApps.md)
 - [HTML Producer](HP.md)

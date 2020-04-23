@@ -34,8 +34,8 @@ Request body:
 ```
 {
   "dates": {
-    "checkin": "11-09-2019",
-    "checkout": "13-09-2019"
+    "checkin": "11-09-2020",
+    "checkout": "13-09-2020"
   },
   "destination": "paris",
   "room": [
@@ -79,7 +79,7 @@ Response validations: Perform needed validations on API response
 - Integration with Junit
 
 ## What we are looking for
-A code we can Trust!
+A code we can Trust! Some good practices alongiwth working code
 
 This code is meant for testing, and passed execution does not mean working application; maybe testing code needs to be tested in the first place
 

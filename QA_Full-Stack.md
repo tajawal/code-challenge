@@ -76,7 +76,7 @@ Perform the below:
 7. Assert the minimum-price displayed for price-range-filter equals to price of first-flight in list
 
 
-###Conditions:
+### Conditions:
 - Same tests to be compatible with both tajawal.com & almosafer.com. Executed based on base URL passed in execution command
 - Code challenge should be done using Cypress preferably. If you wish to use any other tool, please communicate this in advance
 - Perform the needed assertions on application response

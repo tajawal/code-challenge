@@ -59,6 +59,7 @@ Perform the below:
 - Room and guest array should be created dynamically
 - Perform needed assertions on the API response
 - Report generation for executed scripts
+- Code challenge should be completed using Java/rest-assured. If you wish to useIf you wish to use any other tool, please communicate this in advance
 
 
 ## Second Scenario:
@@ -78,6 +79,6 @@ Perform the below:
 
 ###Conditions:
 - Same tests to be compatible with both tajawal.com & almosafer.com. Executed based on base URL passed in execution command
-- Code challenge should be done using Cypress preferably. If you wish to use any other tool, please communicate this in advance
+- Code challenge should be completed using Cypress preferably. If you wish to use any other tool, please communicate this in advance
 - Perform the needed assertions on application response
 - Report generation for executed scripts

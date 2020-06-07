@@ -12,5 +12,5 @@
 - [Backend QA Engineer](QA_Backend.md)
 - [Frontend QA Engineer](QA_Frontend.md)
 - [Apps QA Engineer](QA_NativeApps.md)
-- [Ful-Stack QA Engineer](QA_Full-Stack.md)
+- [Full-Stack QA Engineer](QA_Full-Stack.md)
 - [HTML Producer](HP.md)

@@ -58,12 +58,13 @@ Perform the below:
 - Dates should be dynamic
 - Room and guest array should be created dynamically
 - Perform needed assertions on the API response
+- The tests should be compatible with both tajawal.com and tajawal.ae. Test execution should be based on base URL passed in execution command
 - Report generation for executed scripts
 - Code challenge should be completed using Java/rest-assured. If you wish to useIf you wish to use any other tool, please communicate this in advance
 
 
 ## Second Scenario:
-1. Navigate to​ configurable base URL (can be tajawal.com or almosafer.com)
+1. Navigate to​ configurable base URL (tajawal.com or almosafer.com)
 2. Check for current set language. If language is already set to english then proceed with next steps. If not, then first change language to english and then proceed.
 3. Navigate to flights-home page, and enter below criteria in flights search form to make flight search:
     - Origin - (from random array of origins - length 5) (Example: DXB, AUH, SHJ, JED, RUH)
@@ -77,8 +78,8 @@ Perform the below:
 7. Assert the minimum-price displayed for price-range-filter equals to price of first-flight in list
 
 
-###Conditions:
-- Same tests to be compatible with both tajawal.com & almosafer.com. Executed based on base URL passed in execution command
+### Conditions:
+- The tests should be compatible with both tajawal.com & almosafer.com. Test execution should be based on base URL passed in execution command
 - Code challenge should be completed using Cypress preferably. If you wish to use any other tool, please communicate this in advance
 - Perform the needed assertions on application response
 - Report generation for executed scripts

@@ -4,72 +4,11 @@
 The main objective of this assignment is measuring test engineering skills. 
 
 ## Requirements and Output
-### First Scenario:
-1- Perform the below:
-Method: GET
+Navigate to https://www.tajawal.ae/en and automate one GET and one POST API from flights/hotels module
 
-URI: https://www.tajawal.ae/api/hotel/ahs/v2/geo-suggest
-
-Header params:
-- parameter name: Content-Type
-- parameter value: application/json
-
-Query Params:
-- parameter name: query
-- parameter value: paris
-
-Response validations: Perform needed validations on response
-
-### Second Scenario:
-2- Perform the below:
-Method: POST
-
-URI: https://www.tajawal.ae/api/hotel/ahs/search/request
-
-Header params:
-parameter name: Content-Type
-parameter value: application/json
-
-Request body:
-```
-{
-  "dates": {
-    "checkin": "11-09-2020",
-    "checkout": "13-09-2020"
-  },
-  "destination": "paris",
-  "room": [
-    {
-      "guest": [
-        {
-          "type": "ADT"
-        },
-        {
-          "type": "ADT"
-        },
-        {
-          "type": "CHD",
-          "age": 3
-        }
-      ]
-    },
-    {
-      "guest": [
-        {
-          "type": "ADT"
-        },
-        {
-          "type": "ADT"
-        }
-      ]
-    }
-  ],
-  "placeId": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ"
-}
-```
 Conditions: 
- - Dates should be dynamic
- - Room and guest array should be created dynamically
+ - Data like dates should be dynamic
+ - Reporting should be in place
  
 Response validations: Perform needed validations on API response
 

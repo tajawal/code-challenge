@@ -24,7 +24,7 @@ Build an application to search and list hotels:
 ## Conditions
 - You should consume the api endpoint mention and not use it as internal json file
 - You should build this application in ECMAScript 6 or later.
-- You should build this application using Reactjs.
+- You should build this application using Reactjs (NextJS and Typescrit will be a plus).
 
 ## What we are looking for
 

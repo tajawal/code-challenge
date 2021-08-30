@@ -14,7 +14,7 @@ The main objective of this assignment is measuring test engineering skills.
 3- Navigate to flights-home page, and enter below criteria in flights search form to make flight search:
 - Origin - (from random array of origins - length 5) (Example: DXB, AUH, SHJ, JED, RUH)
 - Destination - (from random array of destinations - length 5) (Example: AMM, CAI, DEL, KHI, PAR)
-- Depart and Return Dates (randomly generated dates in future. Do not select date in current month. Scroll down in calendar view and select future dates.) 
+- Depart and Return Dates (randomly generated dates in future. Do not select date in current month. Scroll down in calendar view and select future dates) 
 - Passengers (1Adult,2Children,1Infant)
 - Cabin Class (Economy)
 
@@ -43,7 +43,7 @@ This code is meant for testing, and passed execution does not mean working appli
 
 ## Important points related to Delivery:
 - Code challenge should be delivered as a link to a public git repository (github.com is preferred). 
-- Implementations focusing on **quality over feature completeness** will be highly appreciated.  Don’t feel compelled to implement everything, while compromising on code quality and quality of the framework itself. 
+- Implementations focusing on **quality over feature completeness** will be highly appreciated.  Don’t feel compelled to implement everything, while compromising on code quality and quality of the framework. 
 - Even if you are not able to complete the challenge, please do submit it anyways.
 - Please avoid any ToDo's in the code.
 

@@ -15,7 +15,7 @@ The main objective of this assignment is measuring test engineering skills.
 - Origin - (from random array of origins - length 5) (Example: DXB, AUH, SHJ, JED, RUH)
 - Destination - (from random array of destinations - length 5) (Example: AMM, CAI, DEL, KHI, PAR)
 - Depart and Return Dates (randomly generated dates in future. Do not select date in current month) 
-- Passengers (1Adult)
+- Passengers (1Adult,2Children,1Infant)
 - Cabin Class (Economy)
 
 3- Wait for loading to be completed on flight listing page

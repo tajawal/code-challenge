@@ -43,7 +43,7 @@ This code is meant for testing, and passed execution does not mean working appli
 
 ## Important points related to Delivery:
 - Code challenge should be delivered as a link to a public git repository (github.com is preferred). 
-- Implementations focusing on **quality over feature completeness** will be highly appreciated.  Don’t feel compelled to implement everything, while compromising on code quality. 
+- Implementations focusing on **quality over feature completeness** will be highly appreciated.  Don’t feel compelled to implement everything, while compromising on code quality and quality of the framework itself. 
 - Even if you are not able to complete the challenge, please do submit it anyways.
 - Please avoid any ToDo's in the code.
 

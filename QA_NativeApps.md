@@ -42,7 +42,7 @@ A code we can Trust!
 This code is meant for testing, and passed execution does not mean working application; maybe testing code needs to be tested in the first place.
 
 ## Important points related to Delivery:
-- Code challenge should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred). 
+- Code challenge should be delivered as a link to a public git repository (github.com is preferred). 
 - Implementations focusing on **quality over feature completeness** will be highly appreciated.  Don’t feel compelled to implement everything, while compromising on code quality. 
 - Even if you are not able to complete the challenge, please do submit it anyways.
 - Please avoid any ToDo's in the code.

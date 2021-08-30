@@ -14,7 +14,7 @@ The main objective of this assignment is measuring test engineering skills.
 3- Navigate to flights-home page, and enter below criteria in flights search form to make flight search:
 - Origin - (from random array of origins - length 5) (Example: DXB, AUH, SHJ, JED, RUH)
 - Destination - (from random array of destinations - length 5) (Example: AMM, CAI, DEL, KHI, PAR)
-- Depart and Return Dates (randomly generated dates in future. Do not select date in current month) 
+- Depart and Return Dates (randomly generated dates in future. Do not select date in current month. Scroll down in calendar view and select future dates.) 
 - Passengers (1Adult,2Children,1Infant)
 - Cabin Class (Economy)
 

@@ -22,7 +22,7 @@ The main objective of this assignment is measuring test engineering skills.
 
 4- Assert the Dates in the flight listing page on the header
 
-5- Use sort feature to ensure that flights are sorted by 'cheapest'
+5- Use sort feature to ensure that flights are sorted by 'cheapest'. (Scroll down and do this check for multiple flights)
  
 6- After loading is completed, fetch and save price of first flight
 

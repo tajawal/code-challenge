@@ -34,6 +34,7 @@ The main objective of this assignment is measuring test engineering skills.
 - Code challenge to be done using Appium / Java / testNG
 - For automated tests, assertions are the key. We want you to explore the application and add the assertions that you think are important.
 - Follow best practices for coding & automation (OOP, POM, reusable, clean, documented code).
+- Start Appium server Programatically
 
 
 ## What we are looking for:

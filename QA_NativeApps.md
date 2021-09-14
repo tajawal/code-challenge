@@ -47,6 +47,7 @@ This code is meant for testing, and passed execution does not mean working appli
 - Implementations focusing on **quality over feature completeness** will be highly appreciated.  Don’t feel compelled to implement everything, while compromising on code quality.
 - Follow All the Best Practices for Implementing a Quality Automation Framework.
 - Even if you are not able to complete the challenge, please do submit it anyways.
+- Make sure you are able to run the tests successfully
 - Please avoid any ToDo's in the code.
 
 

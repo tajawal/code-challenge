@@ -4,7 +4,7 @@
 The main objective of this assignment is measuring test engineering skills. 
 
 ## Requirements and Output
-Navigate to https://tajawal.ae/en and automate one GET and one POST API from flights/hotels module.
+Navigate to https://ae.almosafer.com/en and automate one GET and one POST API from flights/hotels module.
 
 In case of hotels module, token (value to be taken from the Network tab) should be added as request header parameter
 

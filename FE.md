@@ -2,7 +2,7 @@
 
 ## Developer Challenge
 
-Using the following endpoint : http://www.mocky.io/v2/5eb8fcb12d0000d088357f2a 
+Using the following endpoint : https://run.mocky.io/v3/48244d7b-52e9-4b5f-b122-bd763e53fa5c 
 
 Build an application to search and list hotels:
 

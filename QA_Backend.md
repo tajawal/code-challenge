@@ -4,9 +4,9 @@
 The main objective of this assignment is measuring test engineering skills. 
 
 ## Requirements and Output
-Navigate to https://ae.almosafer.com/en and automate one GET and one POST API from flights/hotels module.
+Navigate to https://www.almosafer.com/en and automate one GET and one POST API from flights/hotels/Chalets+ module.
 
-In case of hotels module, token (value to be taken from the Network tab) should be added as request header parameter
+In case of hotels/Chalets+ module, token (value to be taken from the Network tab) should be added as request header parameter
 
 Conditions: 
  - Data like dates should be dynamic

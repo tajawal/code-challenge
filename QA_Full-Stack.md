@@ -1,3 +1,6 @@
+![](https://argaamplus.s3.amazonaws.com/159afd60-8669-4140-aa9e-fe46791f515d.png)
+
+
 # Full-Stack QA - Code Challenge
 The main objective of this assignment is to measure the candidate’s test engineering skills.
 ## General Information

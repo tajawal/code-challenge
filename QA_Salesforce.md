@@ -13,32 +13,32 @@ Please read the information below carefully before proceeding to the next sectio
 - If you have any questions about this challenge, please do not hesitate to reach out to us.
 Good Luck!
 
-## Salesforce URL
-- https://login.salesforce.com
+## Environment Details
+- Url: https://login.salesforce.com
 - Username: harsh.chaturvedi@wise-raccoon-vgnfqt.com
 - Password: Seer@123
 
 ## First Scenario
-1. Navigate to the salesforce url above 
-2. Login to the portal 
-3. Navigate to Service App 
-4. Create a new Account 
-5. Create a new Contact under same Account as above 
-6. Create a new Case and enter all mandatory fields (Select the Account and Contact created above)
+1. Navigate to the salesforce url above. 
+2. Login to the portal using the credentials above.
+3. Navigate to Service App .
+4. Create a new Account. 
+5. Create a new Contact under same Account as above. 
+6. Create a new Case and enter all mandatory fields (Select the Account and Contact created above).
 
 ### Conditions
-- Perform necessary assertions on each page
-- Report generation for executed scripts
+- Perform necessary assertions for each page and action performed.
+- Generate report for executed tests.
 
 
 ## Second Scenario
 1. Navigate to the salesforce url above 
-2. Login to the portal 
-3. Navigate to Service App 
-4. Navigate to Cases 
-5. Search for the case created in first scenario above 
-6. Change Case Owner to Queue Name : 'Test Queue'
+2. Login to the portal using the credentials above. 
+3. Navigate to Service App. 
+4. Navigate to Cases. 
+5. Search for the case created in first scenario above. 
+6. Change Case Owner to Queue Name : 'Dummy Queue'.
 
 ### Conditions
-- Perform necessary assertions on each page
-- Report generation for executed scripts
+- Perform necessary assertions for each page and action performed.
+- Generate report for executed tests.

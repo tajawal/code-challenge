@@ -22,17 +22,18 @@ Good Luck!
 1. Navigate to the salesforce URL above. 
 2. Login to the portal using the credentials above.
 3. Navigate to 'Service' App.
-4. Create a new 'Account'. 
-5. Create a new 'Contact' under the same Account as above. 
-6. Create a new 'Case' and enter all mandatory fields (Select the Account and Contact created above).
+5. Create a new 'Account'. 
+7. Create a new 'Contact' using the same Account as above. 
+8. Create a new 'Case' and enter values for all fields (Select the Account and Contact created above).
 
 ### Conditions
+- Include test cases for positive and negative scenarios.
 - Perform necessary assertions for each page and action performed.
-- Generate a report for executed tests.
+- Generate a report for executed test cases.
 
 
 ## Second Scenario
-1. Navigate to the salesforce URL above 
+1. Navigate to the salesforce URL above. 
 2. Login to the portal using the credentials above. 
 3. Navigate to 'Service' App. 
 4. Navigate to 'Cases'. 
@@ -41,4 +42,4 @@ Good Luck!
 
 ### Conditions
 - Perform necessary assertions for each page and action performed.
-- Generate a report for executed tests.
+- Generate a report for executed test cases.

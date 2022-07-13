@@ -19,26 +19,27 @@ Good Luck!
 - Password: Seer@123
 
 ## First Scenario
-1. Navigate to the salesforce url above. 
+1. Navigate to the salesforce URL above. 
 2. Login to the portal using the credentials above.
-3. Navigate to Service App .
-4. Create a new Account. 
-5. Create a new Contact under same Account as above. 
-6. Create a new Case and enter all mandatory fields (Select the Account and Contact created above).
+3. Navigate to 'Service' App.
+5. Create a new 'Account'. 
+7. Create a new 'Contact' using the same Account as above. 
+8. Create a new 'Case' and enter values for all fields (Select the Account and Contact created above).
 
 ### Conditions
+- Include test cases for positive and negative scenarios.
 - Perform necessary assertions for each page and action performed.
-- Generate report for executed tests.
+- Generate a report for executed test cases.
 
 
 ## Second Scenario
-1. Navigate to the salesforce url above 
+1. Navigate to the salesforce URL above. 
 2. Login to the portal using the credentials above. 
-3. Navigate to Service App. 
-4. Navigate to Cases. 
-5. Search for the case created in first scenario above. 
-6. Change Case Owner to Queue Name : 'Dummy Queue'.
+3. Navigate to 'Service' App. 
+4. Navigate to 'Cases'. 
+5. Search for the case created in the first scenario above. 
+6. Change 'Case Owner' to Queue Name:'Dummy Queue'.
 
 ### Conditions
 - Perform necessary assertions for each page and action performed.
-- Generate report for executed tests.
+- Generate a report for executed test cases.

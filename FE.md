@@ -17,12 +17,14 @@ get a full list of public repositories matching this query.
   respective tags/badges).
   - Fork: Username/Avatar of the last 3 users who forked it with
   avatar linking to the fork.
-  - Handle about empty/error/loading states.
-- Pagination: if you have time, think about pagination.
+  - Any other additional information, you'd like to show.
+- Handle about empty/error/loading states.
+- Pagination: add the infinite scroll pagination.
 
 
 ## Conditions
 - You should think about the UI and UX of your app.
+- You should think about the state management of your app.
 - You should consume the api endpoint mention and not use it as internal json file.
 - You should build this application in ECMAScript 6 or later.
 - You should build this application using Reactjs (NextJS and Typescript will be a plus).
@@ -32,7 +34,7 @@ get a full list of public repositories matching this query.
 - **Simple, clear, readable code** How well structured it is? Clear separation of concerns? Can anyone just look at it and get the idea to
 what is being done? Does it follow any standards?
 - **Correctness** Does the application do what it promises? Can we find bugs or trivial flaws?
-- **Memory efficiency** How will it behave in case of large datasets?
+- **Memory efficiency** How will it behave in case of large datasets? Are results cached? Do you have debounce on your search?
 - **Testing** How well tested your application is? Can you give some metrics?
 
 

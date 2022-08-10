@@ -1,8 +1,8 @@
 ![](https://argaamplus.s3.amazonaws.com/159afd60-8669-4140-aa9e-fe46791f515d.png)
 
 ## Developer Challenge
-Using the API provided by Github Gist API, which is documented
-here (https://developer.github.com/v3/gists/) create a SPA using React. A user should be able to search for public repositories and users.
+Using the API provided by Github Search API, which is documented
+here (https://docs.github.com/en/rest/search#about-the-search-api) create a SPA using React. A user should be able to search for public repositories and users.
 
 ## Requirements and Output
 - Select: you should be able to select search type between 'repositories' and 'users' and do a search based on this type.
@@ -11,9 +11,9 @@ get a list of users matching this query.
   - Show the user avatar, name and the link to his profile.
 - Search: When a user enters a query and 'repository' type is selected, it should be able to
 get a full list of public repositories matching this query.
-  - Filetype: Convert the filetypes of the files in the gist into a
-  tag/badge, (e.g, if the returned gist has a list of files
-  containing python and javascript files, the gist should have the
+  - Filetype: Convert the filetypes of the files in the repository into a
+  tag/badge, (e.g, if the returned repository has a list of files
+  containing python and javascript files, the repository should have the
   respective tags/badges).
   - Fork: Username/Avatar of the last 3 users who forked it with
   avatar linking to the fork.

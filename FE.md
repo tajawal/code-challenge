@@ -18,7 +18,7 @@ get a full list of public repositories matching this query.
   - Fork: Username/Avatar of the last 3 users who forked it with
   avatar linking to the fork.
   - Any other additional information, you'd like to show.
-- Handle about empty/error/loading states.
+- Handle the empty/error/loading states.
 - Pagination: add the infinite scroll pagination.
 
 

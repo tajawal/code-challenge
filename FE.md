@@ -8,16 +8,16 @@ here (https://developer.github.com/v3/gists/) create a SPA using React. A user s
 - Select: you should be able to select search type between 'repositories' and 'users' and do a search based on this type
 - Search: When a user enters a query and 'user' type is selected, it should be able to
 get a full list of public gists by that user.
-  |-- Show the user avatar, name and the link to his profile.
+  - Show the user avatar, name and the link to his profile.
 - Search: When a user enters a query and 'repository' type is selected, it should be able to
 get a full list of public repositories for this query.
-  |-- Filetype: Convert the filetypes of the files in the gist into a
+  - Filetype: Convert the filetypes of the files in the gist into a
   tag/badge, (e.g, if the returned gist has a list of files
   containing python and javascript files, the gist should have the
   respective tags/badges).
-  |-- Fork: Username/Avatar of the last 3 users who forked it with
+  - Fork: Username/Avatar of the last 3 users who forked it with
   avatar linking to the fork.
-  |-- Handle about empty/error/loading states
+  - Handle about empty/error/loading states
 
 ## Conditions
 - You should think about the UI and UX of your app.

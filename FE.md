@@ -2,7 +2,7 @@
 
 ## Developer Challenge
 Using the API provided by Github Search API, which is documented
-here (https://docs.github.com/en/rest/search#about-the-search-api) create a SPA using React. A user should be able to search for public repositories and users.
+here (https://docs.github.com/en/rest/search#about-the-search-api) create a SPA using React and Next.js. A user should be able to search for public repositories and users.
 
 ## Requirements and Output
 - Select: you should be able to select search type between 'repositories' and 'users' and do a search based on this type.
@@ -25,9 +25,8 @@ get a full list of public repositories matching this query.
 ## Conditions
 - You should think about the UI and UX of your app.
 - You should think about the state management of your app.
-- You should consume the api endpoint mention and not use it as internal json file.
-- You should build this application in ECMAScript 6 or later.
-- You should build this application using Reactjs (NextJS and Typescript will be a plus).
+- You should consume the api endpoint mentioned and not use it as internal json file.
+- You should build this application using Reactjs and NextJS (Typescript will be a plus).
 
 ## What we are looking for
 

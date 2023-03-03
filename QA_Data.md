@@ -12,20 +12,18 @@ You have given customer-related data in SQL table,
 1- validate the data using SQL queries, and show your output in excel sheet.
 2- Can this table be signed off and shared with stackholders or not? explain your answer
 
-```sql
-| ID | First Name | Last Name | Address | City | State | Zip Code | Phone Number | Email | Birthdate |
-| ---| ---------- | --------- | --------|------|-------|----------|--------------|-------|-----------|
-| 1 | John | Smith | 123 Main St | Anytown | CA | 12345 | 555-555-1212 | john.smith@email.com | 1980-01-01 |
-| 2 | Jane | Doe | 456 Second St | Anytown | CA | 12345	| NULL | jane.doe@email.com | 1990-02-02 |
-| 3 | John | Smith | 789 Third St | Othertown | NY | 67890 | 555-555-1212 | NULL | 03-12-1987 |
-| 4 | Bob | Johnson | 234 Fourth St | Othertown | NY | 67890 | 555-555-1212 | bob.johnson@example.com | 1985-04-04 |
-| 5 | Sarah	| Lee | 567 Fifth St | Thirdtown | FL | 45678 | 555-555-1212 | sarah.lee@invalidemail | NULL |
-| 6 | David | Kim | 890 Sixth St | Fourthtown | TX | 34567 | 555-555-1212 | david.kim@email.com | 1995-06-06 |
-| 7 | John | Smith | 123 Main St | Anytown | CA | NULL | 555-555-1212 | john.smith@example.com | 1980-01-01 |
-| 8 | Jane | Doe | 456 Second St | Anytown | CA | 12345 | 555-555-1212 | jane.doe@invalidemail | 02-02-1990 |
-| 9 | John | Smith | 789 Third St | Othertown | NULL | 67890 | 555-555-1212 | john.smith@email.com | 1975-03-03 |
-| 10 | Bob | Johnson | 234 Fourth St | Othertown | NY | NULL | 555-555-1212 | bob.johnson@example.com | 1985-04-04 |
-```
+| ID  | First Name | Last Name | Address       | City       | State | Zip Code | Phone Number | Email                   | Birthdate  |
+| --- | ---------- | --------- | ------------- | ---------- | ----- | -------- | ------------ | ----------------------- | ---------- |
+| 1   | John       | Smith     | 123 Main St   | Anytown    | CA    | 12345    | 555-555-1212 | john.smith@email.com    | 1980-01-01 |
+| 2   | Jane       | Doe       | 456 Second St | Anytown    | CA    | 12345    | NULL         | jane.doe@email.com      | 1990-02-02 |
+| 3   | John       | Smith     | 789 Third St  | Othertown  | NY    | 67890    | 555-555-1212 | NULL                    | 03-12-1987 |
+| 4   | Bob        | Johnson   | 234 Fourth St | Othertown  | NY    | 67890    | 555-555-1212 | bob.johnson@example.com | 1985-04-04 |
+| 5   | Sarah      | Lee       | 567 Fifth St  | Thirdtown  | FL    | 45678    | 555-555-1212 | sarah.lee@invalidemail  | NULL       |
+| 6   | David      | Kim       | 890 Sixth St  | Fourthtown | TX    | 34567    | 555-555-1212 | david.kim@email.com     | 1995-06-06 |
+| 7   | John       | Smith     | 123 Main St   | Anytown    | CA    | NULL     | 555-555-1212 | john.smith@example.com  | 1980-01-01 |
+| 8   | Jane       | Doe       | 456 Second St | Anytown    | CA    | 12345    | 555-555-1212 | jane.doe@invalidemail   | 02-02-1990 |
+| 9   | John       | Smith     | 789 Third St  | Othertown  | NULL  | 67890    | 555-555-1212 | john.smith@email.com    | 1975-03-03 |
+| 10  | Bob        | Johnson   | 234 Fourth St | Othertown  | NY    | NULL     | 555-555-1212 | bob.johnson@example.com | 1985-04-04 |
 
 ### Challenge Two:
 

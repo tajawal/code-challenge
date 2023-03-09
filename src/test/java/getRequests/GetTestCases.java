@@ -3,9 +3,6 @@ package getRequests;
 import com.utils.PropReader;
 import helpers.DataHelper;
 import io.restassured.RestAssured;
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;

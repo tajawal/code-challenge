@@ -5,8 +5,8 @@
     </bearerToken>
 
     <SearchData>
-        <checkIn>2023-03-09</checkIn>
-        <checkOut>2023-03-10</checkOut>
+        <checkIn>2023-03-11</checkIn>
+        <checkOut>2023-03-12</checkOut>
         <adultsCount>2</adultsCount>
         <kidsAges>2</kidsAges>
         <searchInfo>null</searchInfo>
@@ -15,7 +15,7 @@
 
         <TestBody>
 
-            <flightTest>
+            <FlightTest>
                 {
                 "next": {
                 "nid": "1678374939166849018",
@@ -133,7 +133,7 @@
                 "cabin": "Economy"
                 }
                 }
-            </flightTest>
+            </FlightTest>
 
 
         </TestBody>

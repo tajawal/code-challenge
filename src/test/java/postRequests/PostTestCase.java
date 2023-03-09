@@ -29,7 +29,60 @@ public class PostTestCase {
                 .then().log().all().assertThat().statusCode(200);
 
     }
+
+    @Test
+    public void testFlightPostMethod() {
+        RestAssured.baseURI = PropReader.readConfig("baseURL");
+
+        given()
+                .contentType(ContentType.JSON)
+                .header("Authorization", DataHelper.getTestData("bearerToken"))
+                .body(DataHelper.getTestData("FlightTest")).post("/api/v3/flights/flight/async-search-result")
+                .then().log().all().assertThat().statusCode(200);}
+
+        @Test
+        public void testAccommodationSearchPostMethod() {
+            RestAssured.baseURI = PropReader.readConfig("baseURL");
+
+            given()
+                    .contentType(ContentType.JSON)
+                    .header("Authorization", DataHelper.getTestData("bearerToken"))
+                    .body("{\n" +
+                            "    \"searchCriteria\": [\n" +
+                            "        {\n" +
+                            "            \"lookupTypeId\": 2,\n" +
+                            "            \"lookupId\": [\n" +
+                            "                9\n" +
+                            "            ]\n" +
+                            "        }\n" +
+                            "    ],\n" +
+                            "    \"checkIn\": \"2023-03-09\",\n" +
+                            "    \"checkOut\": \"2023-04-02\",\n" +
+                            "    \"sortBy\": \"rank\",\n" +
+                            "    \"sortOrder\": \"DESC\",\n" +
+                            "    \"rankType\": \"dynamic\",\n" +
+                            "    \"pageNo\": 1,\n" +
+                            "    \"pageSize\": 10\n" +
+                            "}").post("/api/accommodation/property/search")
+                    .then().log().all().assertThat().statusCode(200);
+
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+//Body
 /*"{\n" +
                         "    \"checkIn\": \"2023-03-23\",\n" +
                         "    \"checkOut\": \"2023-03-24\",\n" +

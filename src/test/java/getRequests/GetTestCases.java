@@ -11,7 +11,7 @@ public class GetTestCases {
 
 
     @Test
-    public void testPostMethod() {
+    public void testGetMethod() {
         RestAssured.baseURI = PropReader.readConfig("baseURL");
 
         given()
@@ -21,5 +21,17 @@ public class GetTestCases {
                 .then()
                 .log().all().assertThat().statusCode(200);
     }
+    @Test
+    public void testGetLastSearchMethod() {
+        RestAssured.baseURI = PropReader.readConfig("baseURL");
+
+        given()
+                .header("Authorization", DataHelper.getTestData("bearerToken"))
+                .when()
+                .get("/api/v3/flights/flight/search?query=RUH-JED/2023-03-09/2023-03-10/Economy/1Adult")
+                .then()
+                .log().all().assertThat().statusCode(200);
+    }
+
 
 }

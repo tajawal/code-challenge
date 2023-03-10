@@ -2,7 +2,9 @@ package com.getRequests;
 
 import com.utils.PropReader;
 import helpers.DataHelper;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
+import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -32,6 +34,8 @@ public class GetTestCases {
                 .then()
                 .log().all().assertThat().statusCode(200);
     }
+
+
 
 
 }

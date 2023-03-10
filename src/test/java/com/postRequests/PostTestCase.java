@@ -47,7 +47,7 @@ public class PostTestCase {
             given()
                     .contentType(ContentType.JSON)
                     .header("Authorization", DataHelper.getTestData("bearerToken"))
-                    .body("{\"searchCriteria\":[{\"lookupTypeId\":2,\"lookupId\":[9]}],\"checkIn\":\"2023-03-09\",\"checkOut\":\"2023-04-02\",\"sortBy\":\"rank\",\"sortOrder\":\"DESC\",\"rankType\":\"dynamic\",\"pageNo\":1,\"pageSize\":10}").post("/api/accommodation/property/search")
+                    .body("{\"searchCriteria\":[{\"lookupTypeId\":2,\"lookupId\":[9]}],\"checkIn\":\""+DataHelper.getTestData("checkIn")+"\",\"checkOut\":\""+DataHelper.getTestData("checkOut")+"\",\"sortBy\":\"rank\",\"sortOrder\":\"DESC\",\"rankType\":\"dynamic\",\"pageNo\":1,\"pageSize\":10}").post("/api/accommodation/property/search")
                     .then().log().all().assertThat().statusCode(200);
 
     }

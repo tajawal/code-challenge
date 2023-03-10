@@ -1,4 +1,4 @@
-package postRequests;
+package com.postRequests;
 import com.utils.PropReader;
 import helpers.DataHelper;
 import io.restassured.RestAssured;

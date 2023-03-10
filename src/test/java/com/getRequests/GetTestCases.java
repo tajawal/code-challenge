@@ -1,4 +1,4 @@
-package getRequests;
+package com.getRequests;
 
 import com.utils.PropReader;
 import helpers.DataHelper;

@@ -4,20 +4,21 @@
 The main objective of this assignment is measuring test engineering skills. 
 
 ## Requirements and Output
-Navigate to https://www.almosafer.com/en and automate one GET and one POST API from flights/hotels/Chalets+ module.
+Navigate to https://www.almosafer.com/en and automate any GET & POST API from flights/hotels/Chalets+ module(In total 2 APIs i.e. GET & POST).
 
 In case of hotels/Chalets+ module, token (value to be taken from the Network tab) should be added as request header parameter
 
 Conditions: 
  - Data like dates should be dynamic
  - Reporting should be in place
+ - Request JSON Body should be created dynamically
  
 Response validations: Perform needed validations on API response
 
 ## General Conditions:
 - Rest Assured framework using any programming language
 - POM
-- Integration with Junit
+- Integration with Junit/TestNG
 
 ## What we are looking for
 A code we can Trust! Some good practices alongiwth working code

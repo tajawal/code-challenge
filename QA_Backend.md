@@ -16,7 +16,7 @@ Conditions:
 Response validations: Perform needed validations on API response
 
 ## General Conditions:
-- Rest Assured framework using any programming language
+- Rest Assured framework using java
 - POM
 - Integration with Junit/TestNG
 

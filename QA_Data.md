@@ -27,10 +27,10 @@ You have given customer-related data in SQL table,
 
 ### Challenge Two:
 
-In this [link](https://docs.google.com/spreadsheets/d/1q0cTH_bvofhrsPqAkciseXG4gDdUzk3qGlp44cRMFWc/edit#gid=457275569), you will find 2 tables , L1 (source table) and L2 (transformed table based on business requirements ),
+In this [link](https://docs.google.com/spreadsheets/d/1q0cTH_bvofhrsPqAkciseXG4gDdUzk3qGlp44cRMFWc/edit#gid=457275569), you will find 2 tables, L1 (source table) and L2 (transformed table based on business requirements ) add it to local DB and share steps How did you do that?
 
-You have to validate the output of the L2 and make sure this table meets the business requirements as following:
-We need to have one strucrted/cleaned table to build a Finance report for Service transactions, attached the required attributes with their logic in below table
+You have to validate the output of the L2 and make sure this table meets the business requirements as follows:
+We need to have one structured/cleaned table to build a Finance report for Service transactions, Attached are the required attributes with their logic in below table
 
 Required column logic from source table condition
 
@@ -63,12 +63,12 @@ gbv_usd	gbv * conversion_rate_usd	product_type = order_type
 
 ## What we are looking for:
 
-A code we can Trust! This code is meant for testing, and passed execution does not mean working application; maybe testing code needs to be tested in the first place.
+A code we can Trust! This code is meant for testing, and passed execution does not mean a working application; maybe testing code needs to be tested in the first place.
 
-Show your output for both questions in a proper QA report.
+Could you show your output for both questions in a proper QA report?
 
 ## Important points related to Delivery:
 
 - Code challenge should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred).
 - Implementations focusing on **quality over feature completeness** will be highly appreciated. Don’t feel compelled to implement everything, while compromising on code quality.
-- Even if you are not able to complete the challenge, please do submit it anyways.
+- Even if you cannot complete the challenge, please submit it anyway.

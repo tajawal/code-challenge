@@ -1,5 +1,3 @@
-![](https://argaamplus.s3.amazonaws.com/159afd60-8669-4140-aa9e-fe46791f515d.png)
-
 ## Developer Challenge
 Using the API provided by Github Search API, which is documented
 here (https://docs.github.com/en/rest/search#about-the-search-api) create a SPA using React and Next.js. A user should be able to search for public repositories and users.

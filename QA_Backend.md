@@ -1,4 +1,6 @@
-![](https://argaamplus.s3.amazonaws.com/159afd60-8669-4140-aa9e-fe46791f515d.png)
+
+<img width="130" alt="Screenshot 2024-09-10 at 11 42 36 AM" src="https://github.com/user-attachments/assets/076ded8b-63a2-45cc-821c-ca109fc7e6a2">
+
 
 ## Developer Challenge
 The main objective of this assignment is measuring test engineering skills. 

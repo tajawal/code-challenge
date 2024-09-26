@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AlmosaferTest">
+    <test name=" Smoke Test" preserve-order="true">
+
+        <classes>
+            <class name="com.getRequests.GetTestCases"/>
+            <class name="com.postRequests.PostTestCase"/>
+
+        </classes>
+
+    </test><!-- test -->
+</suite> <!-- Suite -->
